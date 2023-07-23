@@ -1,0 +1,582 @@
+{
+  "name": "aliyunpan-sync-xmake",
+  "type": "directory",
+  "children": [
+    {
+      "name": ".xmake",
+      "type": "directory",
+      "children": [
+        {
+          "name": "linux",
+          "type": "directory",
+          "children": [
+            {
+              "name": "x86_64",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "xmake.conf",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.xmake/linux/x86_64/xmake.conf",
+                  "file_time": 1690128867.5050516
+                },
+                {
+                  "name": "cache",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "references",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.xmake/linux/x86_64/cache/references",
+                      "file_time": 1690128379.4930732
+                    },
+                    {
+                      "name": "config",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.xmake/linux/x86_64/cache/config",
+                      "file_time": 1690128867.5730517
+                    },
+                    {
+                      "name": "toolchain",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.xmake/linux/x86_64/cache/toolchain",
+                      "file_time": 1690128717.8370583
+                    },
+                    {
+                      "name": "detect",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.xmake/linux/x86_64/cache/detect",
+                      "file_time": 1690128717.9290583
+                    },
+                    {
+                      "name": "repository",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.xmake/linux/x86_64/cache/repository",
+                      "file_time": 1690126352.0931623
+                    },
+                    {
+                      "name": "project",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.xmake/linux/x86_64/cache/project",
+                      "file_time": 1690128378.745073
+                    },
+                    {
+                      "name": "package",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.xmake/linux/x86_64/cache/package",
+                      "file_time": 1690128379.4890733
+                    },
+                    {
+                      "name": "cxxmodules",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.xmake/linux/x86_64/cache/cxxmodules",
+                      "file_time": 1690128378.7290733
+                    },
+                    {
+                      "name": "option",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.xmake/linux/x86_64/cache/option",
+                      "file_time": 1690128378.7730732
+                    },
+                    {
+                      "name": "history",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.xmake/linux/x86_64/cache/history",
+                      "file_time": 1690131335.820943
+                    }
+                  ]
+                },
+                {
+                  "name": "project.lock",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.xmake/linux/x86_64/project.lock",
+                  "file_time": 1690126351.4851625
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".gitignore",
+      "type": "file",
+      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.gitignore",
+      "file_time": 1690126217.8851683
+    },
+    {
+      "name": "build",
+      "type": "directory",
+      "children": [
+        {
+          "name": "linux",
+          "type": "directory",
+          "children": [
+            {
+              "name": "x86_64",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "release",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "aliyunpan-sync-xmake",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/linux/x86_64/release/aliyunpan-sync-xmake",
+                      "file_time": 1690128752.5730567
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Makefile",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/Makefile",
+          "file_time": 1690128637.3450618
+        },
+        {
+          "name": "cmake_install.cmake",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/cmake_install.cmake",
+          "file_time": 1690128637.3450618
+        },
+        {
+          "name": "test",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/test",
+          "file_time": 1690129699.3330152
+        },
+        {
+          "name": ".build_cache",
+          "type": "directory",
+          "children": [
+            {
+              "name": "42",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "42aae0cfb864e327d1d4f582eb4c407e",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/.build_cache/42/42aae0cfb864e327d1d4f582eb4c407e",
+                  "file_time": 1690126353.6251624
+                }
+              ]
+            },
+            {
+              "name": "1e",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "1ec659e7e18026e343731e44eac44a75",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/.build_cache/1e/1ec659e7e18026e343731e44eac44a75",
+                  "file_time": 1690126685.6611476
+                }
+              ]
+            },
+            {
+              "name": "e4",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "e419c0b3b502d67bccedd39f88612ade",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/.build_cache/e4/e419c0b3b502d67bccedd39f88612ade",
+                  "file_time": 1690128202.725081
+                }
+              ]
+            },
+            {
+              "name": "61",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "61659df704c3b52cd1111d60066036e9",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/.build_cache/61/61659df704c3b52cd1111d60066036e9",
+                  "file_time": 1690128717.8090582
+                }
+              ]
+            },
+            {
+              "name": "f6",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "f6d6be184d584a4885c85c7c4b09b558",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/.build_cache/f6/f6d6be184d584a4885c85c7c4b09b558",
+                  "file_time": 1690128752.4770567
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CMakeFiles",
+          "type": "directory",
+          "children": [
+            {
+              "name": "cmake.check_cache",
+              "type": "file",
+              "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/cmake.check_cache",
+              "file_time": 1690128637.3450618
+            },
+            {
+              "name": "progress.marks",
+              "type": "file",
+              "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/progress.marks",
+              "file_time": 1690128637.3450618
+            },
+            {
+              "name": "Makefile.cmake",
+              "type": "file",
+              "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/Makefile.cmake",
+              "file_time": 1690128637.3450618
+            },
+            {
+              "name": "CMakeOutput.log",
+              "type": "file",
+              "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/CMakeOutput.log",
+              "file_time": 1690128637.3410618
+            },
+            {
+              "name": "3.22.1",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "CompilerIdCXX",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "CMakeCXXCompilerId.cpp",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+                      "file_time": 1690128637.021062
+                    },
+                    {
+                      "name": "a.out",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out",
+                      "file_time": 1690128637.0810618
+                    }
+                  ]
+                },
+                {
+                  "name": "CMakeDetermineCompilerABI_CXX.bin",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_CXX.bin",
+                  "file_time": 1690128637.3290617
+                },
+                {
+                  "name": "CMakeSystem.cmake",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/3.22.1/CMakeSystem.cmake",
+                  "file_time": 1690128636.9130619
+                },
+                {
+                  "name": "CMakeDetermineCompilerABI_C.bin",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_C.bin",
+                  "file_time": 1690128637.1930618
+                },
+                {
+                  "name": "CompilerIdC",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "CMakeCCompilerId.c",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c",
+                      "file_time": 1690128636.929062
+                    },
+                    {
+                      "name": "a.out",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/3.22.1/CompilerIdC/a.out",
+                      "file_time": 1690128636.9930618
+                    }
+                  ]
+                },
+                {
+                  "name": "CMakeCXXCompiler.cmake",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake",
+                  "file_time": 1690128637.3410618
+                },
+                {
+                  "name": "CMakeCCompiler.cmake",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake",
+                  "file_time": 1690128637.2130618
+                }
+              ]
+            },
+            {
+              "name": "Makefile2",
+              "type": "file",
+              "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/Makefile2",
+              "file_time": 1690128637.3450618
+            },
+            {
+              "name": "test.dir",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "compiler_depend.internal",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/test.dir/compiler_depend.internal",
+                  "file_time": 1690129698.825015
+                },
+                {
+                  "name": "link.txt",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/test.dir/link.txt",
+                  "file_time": 1690128637.3450618
+                },
+                {
+                  "name": "compiler_depend.ts",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/test.dir/compiler_depend.ts",
+                  "file_time": 1690128637.3410618
+                },
+                {
+                  "name": "progress.make",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/test.dir/progress.make",
+                  "file_time": 1690128637.3450618
+                },
+                {
+                  "name": "compiler_depend.make",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/test.dir/compiler_depend.make",
+                  "file_time": 1690128649.7970612
+                },
+                {
+                  "name": "cmake_clean.cmake",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/test.dir/cmake_clean.cmake",
+                  "file_time": 1690128637.3450618
+                },
+                {
+                  "name": "build.make",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/test.dir/build.make",
+                  "file_time": 1690128637.3450618
+                },
+                {
+                  "name": "DependInfo.cmake",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/test.dir/DependInfo.cmake",
+                  "file_time": 1690128637.3450618
+                },
+                {
+                  "name": "src",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "file.cpp.o",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/test.dir/src/file.cpp.o",
+                      "file_time": 1690129699.1850152
+                    },
+                    {
+                      "name": "file.cpp.o.d",
+                      "type": "file",
+                      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/test.dir/src/file.cpp.o.d",
+                      "file_time": 1690129699.177015
+                    }
+                  ]
+                },
+                {
+                  "name": "flags.make",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/test.dir/flags.make",
+                  "file_time": 1690128637.3450618
+                },
+                {
+                  "name": "depend.make",
+                  "type": "file",
+                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/test.dir/depend.make",
+                  "file_time": 1690128637.3410618
+                }
+              ]
+            },
+            {
+              "name": "CMakeDirectoryInformation.cmake",
+              "type": "file",
+              "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/CMakeDirectoryInformation.cmake",
+              "file_time": 1690128637.3450618
+            },
+            {
+              "name": "TargetDirectories.txt",
+              "type": "file",
+              "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeFiles/TargetDirectories.txt",
+              "file_time": 1690128637.3450618
+            }
+          ]
+        },
+        {
+          "name": "CMakeCache.txt",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/CMakeCache.txt",
+          "file_time": 1690128637.3410618
+        },
+        {
+          "name": ".deps",
+          "type": "directory",
+          "children": [
+            {
+              "name": "aliyunpan-sync-xmake",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "linux",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "x86_64",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "release",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "aliyunpan-sync-xmake.d",
+                              "type": "file",
+                              "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/.deps/aliyunpan-sync-xmake/linux/x86_64/release/aliyunpan-sync-xmake.d",
+                              "file_time": 1690128752.5770566
+                            },
+                            {
+                              "name": "src",
+                              "type": "directory",
+                              "children": [
+                                {
+                                  "name": "main.cpp.o.d",
+                                  "type": "file",
+                                  "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/build/.deps/aliyunpan-sync-xmake/linux/x86_64/release/src/main.cpp.o.d",
+                                  "file_time": 1690128752.4810567
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "xmake.lua",
+      "type": "file",
+      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/xmake.lua",
+      "file_time": 1690128223.58908
+    },
+    {
+      "name": "CMakeLists.txt",
+      "type": "file",
+      "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/CMakeLists.txt",
+      "file_time": 1690128625.6770623
+    },
+    {
+      "name": ".idea",
+      "type": "directory",
+      "children": [
+        {
+          "name": "aliyunpan-sync-xmake.iml",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.idea/aliyunpan-sync-xmake.iml",
+          "file_time": 1690127432.1571147
+        },
+        {
+          "name": "workspace.xml",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.idea/workspace.xml",
+          "file_time": 1690131340.720943
+        },
+        {
+          "name": "vcs.xml",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.idea/vcs.xml",
+          "file_time": 1690127331.2211192
+        },
+        {
+          "name": "modules.xml",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.idea/modules.xml",
+          "file_time": 1690127331.1971192
+        },
+        {
+          "name": ".gitignore",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.idea/.gitignore",
+          "file_time": 1690127331.3171194
+        },
+        {
+          "name": "misc.xml",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.idea/misc.xml",
+          "file_time": 1690127432.1691148
+        },
+        {
+          "name": "inspectionProfiles",
+          "type": "directory",
+          "children": [
+            {
+              "name": "Project_Default.xml",
+              "type": "file",
+              "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/.idea/inspectionProfiles/Project_Default.xml",
+              "file_time": 1690127396.7891164
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "type": "directory",
+      "children": [
+        {
+          "name": "main.cpp",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/src/main.cpp",
+          "file_time": 1690128912.1410496
+        },
+        {
+          "name": "dirs.json",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/src/dirs.json",
+          "file_time": 1690131473.980937
+        },
+        {
+          "name": "files.json",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/src/files.json",
+          "file_time": 1690131482.7889366
+        },
+        {
+          "name": "file.cpp",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/src/file.cpp",
+          "file_time": 1690130918.2609615
+        },
+        {
+          "name": "testdir.py",
+          "type": "file",
+          "abs_path": "/home/yjs/CPP/aliyunpan-sync-xmake/src/testdir.py",
+          "file_time": 1690131473.856937
+        }
+      ]
+    }
+  ]
+}
