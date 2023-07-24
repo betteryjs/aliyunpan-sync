@@ -11,7 +11,7 @@ add_packages("nlohmann_json")
 
 target("aliyunpan-sync-xmake")
     set_kind("binary")
-    add_files("src/main.cpp")
+    add_files("src/main.cpp", "src/Config.cpp")
     --add_packages("spdlog")
 
 
