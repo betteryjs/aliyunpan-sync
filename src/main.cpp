@@ -11,6 +11,7 @@
 
 
 #include "Config.h"
+#include "syncClient.h"
 
 
 using namespace std;
@@ -37,32 +38,7 @@ void filestat(const char *filepath, struct stat *buf) {
 
 
 
-void checkAllDir(const fs::path &dirs) {
-    json dict;
 
-    vector<string>  removeDirs{".xmake"};
-    fs::directory_iterator dictsIterator(dirs);
-    for (fs::directory_entry dir:dictsIterator)
-    {
-
-        if (fs::is_directory(dir) && std::find(removeDirs.begin(), removeDirs.end(), dir.path().filename()) == removeDirs.end()){
-            cout << dir.path()<<endl;
-            dict[dir.path().string()] = true;
-        }
-
-
-
-    }
-    fstream jsonDirs;
-    jsonDirs.open("oldDirs.json",ios::out);
-    jsonDirs<< dict;
-    jsonDirs.close();
-
-
-
-
-
-}
 
 
 
@@ -78,11 +54,16 @@ int main(int argc, char **argv) {
 //
 //    checkAllDir(path);
 //    cout << dict<<endl;
-    Config config;
-    cout << config.access_token<<endl;
-    auto res=config.removeDir;
-    for_each(res.begin(),res.end(),[](auto c){cout << c<< " ";});
-    cout << endl;
+//    Config config;
+//    cout << config.access_token<<endl;
+//    auto res=config.removeDir;
+//    for_each(res.begin(),res.end(),[](auto c){cout << c<< " ";});
+//    cout << endl;
+    syncClient syncclient;
+//    syncclient.getSpaceInfo();
+    syncclient.getDriveInfo();
+//    syncclient.checkAllDir("/home/yjs/CPP/aliyunpan-sync-xmake");
+//    syncclient.getFileListOpenapi();
 
     return 0;
 }

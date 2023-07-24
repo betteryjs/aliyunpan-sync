@@ -1,18 +1,27 @@
 add_rules("mode.debug", "mode.release")
 
-add_requires("spdlog","workflow","nlohmann_json")
+add_requires("spdlog","workflow","nlohmann_json","cpr")
 
 set_languages("cxx17")
 
 add_includedirs("/usr/local/include")
 add_includedirs("/usr/include/c++/11")
 
-add_packages("nlohmann_json")
+--add_packages("nlohmann_json")
 
 target("aliyunpan-sync-xmake")
     set_kind("binary")
-    add_files("src/main.cpp", "src/Config.cpp")
-    --add_packages("spdlog")
+    add_files("src/main.cpp", "src/Config.cpp","src/syncClient.cpp")
+    add_packages("spdlog")
+    add_packages("cpr")
+
+--target("test")
+--    set_kind("binary")
+--    add_files("src/tutorial-01-wget.cc")
+--    add_packages("workflow")
+--    add_packages("nlohmann_json")
+
+
 
 
 

@@ -7,6 +7,20 @@
 
 #include <string>
 #include <vector>
+#include <fstream>
+#include <algorithm>
+#include <filesystem>
+#include <nlohmann/json.hpp>
+#include <iostream>
+#include "spdlog/spdlog.h"
+#include "spdlog/cfg/env.h"
+#include "spdlog/fmt/ostr.h"
+
+
+
+using namespace std;
+namespace fs = std::filesystem;
+using json = nlohmann::json;
 
 class Config {
 public:
@@ -17,6 +31,8 @@ public:
     std::string grant_type;    //  身份类型 authorization_code 或 refresh_token
     std::string access_token;  // 用来获取用户信息的 access_token。 刷新后，旧 access_token 不会立即失效。
     std::vector<std::string>  removeDir;
+    std::string drive_id;
+
 public:
 
     Config(const std::string &client_id, const std::string &client_secret);
@@ -26,8 +42,9 @@ public:
 public:
 
     int updateAccessToken();
-
     int updateRefreshToken();
+    int setDriveId(const string & driverId );
+    int saveConfig();
 
 
 };

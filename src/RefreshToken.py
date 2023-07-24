@@ -1,21 +1,11 @@
 # "https://open.aliyundrive.com/o/oauth/authorize?client_id=76917ccccd4441c39457a04f6084fb2f&redirect_uri=https://alist.nn.ci/tool/aliyundrive/callback&scope=user:base,file:all:read,file:all:write&state=&response_type=code"
-
+# https://open.aliyundrive.com/o/oauth/authorize?client_id=76917ccccd4441c39457a04f6084fb2f&redirect_uri=https://alist.nn.ci/tool/aliyundrive/callback&scope=user:base,file:all:read,file:all:write&state=&response_type=code
 
 loginurl="https://passport.aliyundrive.com/newlogin/login.do?appName=aliyun_drive&fromSite=52&_bx-v=2.5.1"
 
-# "Authority": "passport.aliyundrive.com"
-# "Method": "POST"
-# "Path":"/newlogin/login.do?appName=aliyun_drive&fromSite=52&_bx-v=2.5.1"
-#"Scheme": "https"
-# "Accept": "application/json, text/plain, */*"
-# "Accept-Encoding":
-# "gzip, deflate, br"
-# "Accept-Language":
-# "zh-CN,zh;q=0.9"
-# "Bx-V":
-# "2.5.1"
-# "Cache-Control:"
-# "no-cache"
+# pass "8ee71d4b7fc61c7e701d839091391922c7976b1c7c8e95816bb62043655f6f544aa6f527912c8a97ddd718d15da6c5c78810143a3118ae97cfad02c33449a89eb67bec834fada6f8070a539f0a2ec4b52925b5422d2e7d68ae43b4b953fddbd455cd4557a8ede5d2f575f50e6f758305df6ad62d1f2f0a4bdbe201d38d78b9f3"
+
+
 # Content-Length:
 # 4295
 # "Content-Type":
@@ -49,6 +39,16 @@ loginurl="https://passport.aliyundrive.com/newlogin/login.do?appName=aliyun_driv
 # User-Agent:
 # Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 headers={
+    "Authority": "passport.aliyundrive.com",
+    "Method": "POST",
+    "Path":"/newlogin/login.do?appName=aliyun_drive&fromSite=52&_bx-v=2.5.1",
+    "Scheme": "https",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept-Language":"zh-CN,zh;q=0.9",
+    "Bx-V":"2.5.1",
+    "Cache-Control":"no-cache"
+
 
 
 }
